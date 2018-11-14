@@ -1,0 +1,52 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "HTML on helppoa",
+      "date": "2017-12-10T17:30:31.098Z",
+      "important": true
+    },
+    {
+      "id": 2,
+      "content": "Selain pystyy suorittamaan vain javascriptiä",
+      "date": "2017-12-10T18:39:34.091Z",
+      "important": false
+    },
+    {
+      "id": 3,
+      "content": "HTTP-protokollan tärkeimmät metodit ovat GET ja POST",
+      "date": "2017-12-10T19:20:14.298Z",
+      "important": false
+    },
+    {
+      "content": "dd",
+      "date": "2018-10-24T12:31:34.356Z",
+      "important": false,
+      "id": 4
+    },
+    {
+      "content": "ff",
+      "date": "2018-10-24T12:34:24.907Z",
+      "important": false,
+      "id": 5
+    },
+    {
+      "content": "th",
+      "date": "2018-10-24T17:07:14.575Z",
+      "important": false,
+      "id": 6
+    },
+    {
+      "content": "lololololoo",
+      "date": "2018-10-24T17:17:20.367Z",
+      "important": false,
+      "id": 7
+    },
+    {
+      "content": "loool",
+      "date": "2018-10-24T17:17:25.231Z",
+      "important": false,
+      "id": 8
+    }
+  ]
+}
