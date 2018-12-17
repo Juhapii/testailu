@@ -7,8 +7,8 @@ export const FeaturesComponent = (props)=>{
   return <section className="features" id="features">
     <div className="container">
       <div className="section-heading text-center">
-        <h2>Unlimited Features, Unlimited Fun</h2>
-        <p className="text-muted">Check out what you can do with this app theme!</p>
+        <h2>Features, Joyfull, Masterfull</h2>
+        <p className="text-muted">Greatness, Success, Perfectfull</p>
         <hr />
       </div>
       <div className="row">
@@ -31,15 +31,15 @@ export const FeaturesComponent = (props)=>{
               <div className="col-lg-6">
                 <div className="feature-item">
                   <i className="icon-screen-smartphone text-primary"></i>
-                  <h3>Device Mockups</h3>
-                  <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                  <h3>Testi1</h3>
+                  <p className="text-muted">Tekstiiii</p>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="feature-item">
                   <i className="icon-camera text-primary"></i>
-                  <h3>Flexible Use</h3>
-                  <p className="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                  <h3>Testi5</h3>
+                  <p className="text-muted">Tekstiiii :D</p>
                 </div>
               </div>
             </div>
@@ -47,15 +47,15 @@ export const FeaturesComponent = (props)=>{
               <div className="col-lg-6">
                 <div className="feature-item">
                   <i className="icon-present text-primary"></i>
-                  <h3>Free to Use</h3>
-                  <p className="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                  <h3>Testi2</h3>
+                  <p className="text-muted">:DD</p>
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="feature-item">
                   <i className="icon-lock-open text-primary"></i>
-                  <h3>Open Source</h3>
-                  <p className="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                  <h3>Testi3</h3>
+                  <p className="text-muted">?????</p>
                 </div>
               </div>
             </div>
