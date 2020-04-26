@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+/*import ReactDOM from 'react-dom';*/
 
 import './App.css';
 /*import 'font-awesome/css/font-awesome.css';*/
 
 import {FooterComponent}  from './components/FooterComponent/FooterComponent';
-/*import {SocialComponent} from './components/SocialComponent/SocialComponent';*/
-/*import {CallToActionComponent} from './components/CallToActionComponent/CallToActionComponent';*/
-import {FeaturesComponent} from './components/FeaturesComponent/FeaturesComponent';
-import {AppDownloadComponent} from './components/AppDownloadComponent/AppDownloadComponent';
-import {HeroComponent} from './components/HeroComponent/HeroComponent';
+import {PictureComponent} from './components/PictureComponent/PictureComponent'
+import {PictureComponent2} from './components/PictureComponent/PictureComponentt2'
+import {ProjectsComponent} from './components/ProjectsComponent/ProjectsComponent';
+import {CVComponent} from './components/CVComponent/CVComponent';
+import {SkillsComponent} from './components/CVComponent/SkillsComponent';
+import {MainComponent} from './components/MainComponent/MainComponent';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent';
-
+/*import Burgermenu from './components/Hamburger/burgermenu';*/
 
 class App extends Component {
   constructor(props){
@@ -19,7 +20,6 @@ class App extends Component {
     this.state={navBarShrink:""};
     this.handleScroll = this.handleScroll.bind(this);
   }
-
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll);
     this.handleScroll();
@@ -30,7 +30,7 @@ class App extends Component {
   }
 
   handleScroll(event){
-    const domNode = ReactDOM.findDOMNode(this.navEl);
+    /*const domNode = ReactDOM.findDOMNode(this.navEl);*/
     const nbs = window.pageYOffset>100 ? "navbar-shrink" : "";
     this.setState({navBarShrink:nbs});
   }
@@ -40,14 +40,15 @@ class App extends Component {
     return (
       <div>
         <NavBarComponent navBarShrink = {nbs} />
-        <HeroComponent />
-        <AppDownloadComponent />
-        <FeaturesComponent />
-        {/*<CallToActionComponent />*/}
-        {/*<SocialComponent />*/}
+        {/*<Burgermenu />*/}
+        <MainComponent />
+        <CVComponent />
+        <PictureComponent2 />
+        <ProjectsComponent />
+        <PictureComponent />
+        <SkillsComponent />
         <FooterComponent />
-      </div>
-      
+      </div> 
     );
   }
 }

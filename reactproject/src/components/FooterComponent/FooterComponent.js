@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';*/
+import React from 'react';
 import './style.css';
 
 export const FooterComponent = (props)=>{
   return <footer>
     <div className="container">
-      <p>&copy; Jea boiiii :D</p>
+      <p>&copy; 2019 Juha Piipponen</p>
+      {/*
       <ul className="list-inline">
         <li className="list-inline-item">
           <a href="#">Privacy</a>
@@ -15,7 +17,7 @@ export const FooterComponent = (props)=>{
         <li className="list-inline-item">
           <a href="#">FAQ</a>
         </li>
-      </ul>
+      </ul>*/}
     </div>
   </footer>
 };
